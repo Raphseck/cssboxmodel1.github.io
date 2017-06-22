@@ -1,0 +1,123 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+    font-weight: 300;
+    font-size: 3.9em;
+    color: darkorange;
+    margin: 0;
+    text-align: center;
+}
+
+.sub-title {
+    line-height: 1.3em;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #594b4f;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: #9e9d9d;
+}
+
+.top-bar {
+  background-color: #594b4f;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  height: 43px;
+  margin: auto;
+  line-height: 32px;
+}
+
+.main {
+  margin: 0;
+  background: #F5FAFF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #F5FAFF, #FFEDDC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F5FAFF, #FFEDDC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.call-to-action {
+  background-image: url("imgs/background-hero.svg");
+  background-position: 50% 0px;
+  background-position-x: 50%;
+  background-position-y: bottom;
+  background-size: auto auto, auto 100%;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.wrapper-nav{
+  width: 860px;
+  margin: auto;
+  line-height: 32px;
+}
+
+.navigation {
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 32px;
+  list-style-type: none;
+  text-align: left;
+  color: #ededed;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.wrapper {
+  width: 860px;
+  margin: auto;
+}
+
+.main-text {
+  padding-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: color;
+  transition-timing-function: ease;
+}
+
+a.link-nav {
+  text-decoration: none;
+  color: #f7f0f1;
+}
+
+a.link-nav:hover {
+  text-decoration: none;
+  color: #f4aa67 ;
+}
+
+a.link-text:hover {
+  text-decoration: none;
+  color: darkorange;
+}
+
+a.link-text {
+  text-decoration: none;
+  color: #222222;
+}
+
+.black-text {
+  color: #5b5b5b;
+}
